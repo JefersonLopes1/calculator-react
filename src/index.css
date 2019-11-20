@@ -1,0 +1,28 @@
+@font-face {
+  font-family: CustomFont;
+  src: url("./fonts/RobotoMono-Thin.ttf");
+}
+@font-face {
+  font-family: CustomFont2;
+  src: url("./fonts/BebasNeue-Regular.ttf");
+}
+
+* {
+  font-family: 'CustomFont';
+}
+h1{
+  font-family: 'CustomFont2';
+  color: rgb(255, 255, 255);
+  letter-spacing: 5px;
+}
+
+body {
+  display: flex;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  color: #fff;
+  background: linear-gradient(to right, rgb(0, 210, 255), rgb(58, 123, 213));
+}
